@@ -1,0 +1,50 @@
+.row{
+    padding: 20px;
+}
+.container{
+    margin: 100px;
+}
+.inputCard{
+    margin: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 500px;
+}
+.cardContainer{
+    width: 100%;
+}
+.logCard{
+    padding: 28px;
+    width: 100%;
+    border-radius: 25px;
+}
+
+.heading{
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+}
+.mb-3{
+    border-radius: 25px;
+}
+.labelTxt{
+    font-size: 0.9rem;
+}
+.btnContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+.submitBtn{
+    text-align: center;
+    font-size: 1rem;
+    width: 8rem;
+    height: 2.5rem;
+}
+
+.logimg{
+    width: 100%;
+    height: 100%;
+}
