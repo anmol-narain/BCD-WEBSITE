@@ -1,0 +1,35 @@
+.navContainer{
+    display: flex;
+    background-color: aliceblue;
+    padding: 10px;
+}
+.navImg{
+    width: 35px;
+}
+.items{
+    display: block;
+    font-size: 18px;
+}
+.links{
+    border-radius: 20px;
+    background-color: #ff9ca5;
+    color: white;
+    margin: 15px;
+}
+.launchBtnContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.launchBtn{
+    height: 3rem;
+    border: 2px solid black;
+}
+.logoContainer{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+.logo{
+    width: 120px;
+}
