@@ -34,11 +34,13 @@ const NavBar = () =>{
             
             <Offcanvas show={show} onHide={handleClose}>
                 <Offcanvas.Header closeButton>
-                <Offcanvas.Title>BITES CHOCOLATE DELIGHTS</Offcanvas.Title>
+                <div className='logoContainer2'>
+                    <img className='logo2' src={logoImg}  />
+                </div>
                 </Offcanvas.Header>
                 <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3 items">
-                  <Nav.Link className='links' href="#action1">Home</Nav.Link>
+                  <Nav.Link className='links' href="/home">Home</Nav.Link>
                   <Nav.Link className='links' href="#action2">Our Blog</Nav.Link>
                   <Nav.Link className='links' href="#action2">Products</Nav.Link>
                   <Nav.Link className='links' href="#action2">Contact Us</Nav.Link>
