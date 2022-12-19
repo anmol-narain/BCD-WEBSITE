@@ -7,6 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Login from './pages/user/Login';
 import Register from './pages/user/Register';
 import Home from './pages/user/Home';
+import ProductComp from './pages/user/ProductComp';
 
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
             <Route path='/login' element={<Login/>}/>
             <Route path='/signUp' element={<Register/>}/>
             <Route path='/home' element={<Home/>}/>
+            <Route path='/products' element={<ProductComp/>}/>
+
 
         </Routes>
       </BrowserRouter>
