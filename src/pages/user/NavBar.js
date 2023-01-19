@@ -44,7 +44,7 @@ const NavBar = () =>{
                   <Nav.Link className='links' href="/gallery">Gallery</Nav.Link>
                   <Nav.Link className='links' href="/blog">Our Blog</Nav.Link>
                   <Nav.Link className='links' href="/products">Products</Nav.Link>
-                  <Nav.Link className='links' href="#action2">Contact Us</Nav.Link>
+                  <Nav.Link className='links' href="/contactUs">Contact Us</Nav.Link>
                   <Nav.Link className='links' href="/testimonials">Testimonials</Nav.Link>
                   
                 </Nav>

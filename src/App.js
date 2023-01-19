@@ -11,6 +11,7 @@ import ProductComp from './pages/user/ProductComp';
 import Blog from './pages/user/Blog';
 import TestimonialComp from './pages/user/Testimonials';
 import Gallery from './pages/user/Gallery';
+import ContactComp from './pages/user/ContactComp';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
             <Route path='/blog' element={<Blog/>}/>
             <Route path='/testimonials' element={<TestimonialComp/>}/>
             <Route path='/gallery' element={<Gallery/>}/>
+            <Route path='/contactUs' element={<ContactComp/>}/>
 
 
         </Routes>

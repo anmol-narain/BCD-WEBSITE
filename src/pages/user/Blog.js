@@ -9,7 +9,7 @@ const Blog = () => {
     return(
         <>
             <NavBar/>
-            <h3 className="header">CHOCOLATIER AMIT NARAIN</h3>
+            <h1 className="title">CHOCOLATIER AMIT NARAIN</h1>
             <div className="blogContainer">
                 <img className="blogImg" src={Img1} alt="" />
                 <div className="blogText">

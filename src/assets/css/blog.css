@@ -1,5 +1,6 @@
-.header{
+.title{
     display: flex;
+    margin: 15px;
     align-items: center;
     justify-content: center;
 }
@@ -19,8 +20,8 @@
 
 
 @media only screen and (max-width: 768px) {
-    .header{
-        font-size: 15px;
+    .title{
+        font-size: 23px;
     }
     .blogImg{
         width: 350px;
