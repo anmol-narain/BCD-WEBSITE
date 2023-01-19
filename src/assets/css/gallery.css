@@ -1,0 +1,27 @@
+.galleryContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.header{
+    margin: 25px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .header{
+        font-size: 15px;
+    }
+    .galleryContainer{
+        padding: 10px;
+    }
+    .grid{
+        grid-template-columns: auto auto;
+        column-gap: 10px;
+    }
+}

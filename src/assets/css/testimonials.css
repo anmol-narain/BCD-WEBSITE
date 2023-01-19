@@ -1,4 +1,4 @@
-.productContainer{
+.Container{
     margin-top: 45px;
     display: flex;
     flex-direction: column;
@@ -19,19 +19,4 @@
 .cardImg{
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-}
-.searchNavContainer{
-    width: 80%;
-    margin-top: 20px;
-}
-.whatsAppBtn{
-    border: none;
-    text-align: center;
-    background-color: rgb(63, 132, 63);
-    font-weight: 500;
-    letter-spacing: 1px;
-    border-radius: 10px;
-    color: white;
-    font-size: 15px;
-    padding: 10px;
 }

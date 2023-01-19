@@ -41,11 +41,11 @@ const NavBar = () =>{
                 <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3 items">
                   <Nav.Link className='links' href="/home">Home</Nav.Link>
-                  <Nav.Link className='links' href="#action2">Our Blog</Nav.Link>
+                  <Nav.Link className='links' href="/gallery">Gallery</Nav.Link>
+                  <Nav.Link className='links' href="/blog">Our Blog</Nav.Link>
                   <Nav.Link className='links' href="/products">Products</Nav.Link>
                   <Nav.Link className='links' href="#action2">Contact Us</Nav.Link>
-                  <Nav.Link className='links' href="#action2">Testimonials</Nav.Link>
-                  <Nav.Link className='links' href="#action2">FeedBack</Nav.Link>
+                  <Nav.Link className='links' href="/testimonials">Testimonials</Nav.Link>
                   
                 </Nav>
                 </Offcanvas.Body>
