@@ -1,0 +1,45 @@
+*{
+    font-family: sans-serif;
+}
+#home{
+    width: 100%;
+    height: 100vh;
+    background-image: url("D:\bcd-website\src\assets\img\backgroundFull.png");
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-position:right;
+}
+.homeContainer{
+    padding: 5px 5%;
+
+}
+.headerText{
+    margin-top: 20%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: palevioletred;
+}
+.headerText p{
+    color: white;
+}
+.headerText h1{
+    font-size: 80px;
+    color: red;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .headerText{
+        margin-top: 1px;
+    }
+    .headerText p{
+        color: red;
+        margin-bottom: 1px;
+    }
+    .headerText h1{
+        font-weight: 600;
+        color: black;
+        font-size: 38px;
+    }
+}
